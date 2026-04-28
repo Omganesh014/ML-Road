@@ -1,0 +1,19 @@
+database:
+  path: "damage_reports.db"
+
+webhook:
+  url: "http://localhost:5001/webhook"
+  timeout: 10
+
+hash_db:
+  path: "../models/image_hashes.json"
+  hamming_threshold: 10
+
+severity_weights:
+  critical: 1.0
+  moderate: 0.5
+  minor: 0.2
+
+risk_factors:
+  rainfall_multiplier: 0.01
+  location_default: 0.5

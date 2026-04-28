@@ -1,0 +1,6 @@
+path: D:/civilthon proj/truthbridge/dataset_yolo
+train: images/train
+val: images/val
+
+nc: 3
+names: ['crack', 'pothole', 'no_damage']

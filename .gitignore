@@ -1,0 +1,55 @@
+# Dependencies
+
+node_modules/
+
+# Build output
+
+dist/
+
+# Environment variables (contain secrets)
+
+.env
+.env.local
+.env.*.local
+
+# Supabase local config
+
+supabase/.temp/
+
+# Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Dataset (VERY IMPORTANT — prevents large uploads)
+
+data/
+dataset/
+dataset_yolo/
+
+# Model weights (large files)
+
+*.pt
+server/weights/
+models/*.json
+
+# SQLite database
+
+*.db
+*.db-journal
+
+# Logs
+
+*.log
+npm-debug.log*
+
+# Vercel
+
+.vercel/
